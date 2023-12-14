@@ -6,7 +6,7 @@ import numpy as np
 app = FastAPI()
 
 # Charger le modèle pré-entrainé
-model = joblib.load("iris.pkl")
+model = joblib.load("/home/mehdi/iris_deploy/iris.pkl")
 
 # Définition de la structure des données en entrée
 class IrisInput(BaseModel):
